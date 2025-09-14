@@ -26,7 +26,7 @@ def main():
         
         choice = input("Enter your choice (1/2/3): ")
         
-        # Handle user conversion choice
+        # Handle user conversion choices 
         if choice == "1":
             converted_temp = celsius_to_fahrenheit(temp_value)
             print(f"{temp_value}°C is equal to {converted_temp:.2f}°F")
@@ -43,3 +43,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
